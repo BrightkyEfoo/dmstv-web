@@ -1,0 +1,39 @@
+.MainAboutSection3-container{
+    display: grid;
+    place-items: center;
+    padding: 100px;
+}
+
+.MainAboutSection3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center;
+    width: fit-content;
+}
+
+.MainAboutSection3Small{
+    padding: 50px;
+    max-width: 570px;
+    max-height: 412px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.MainAboutSection3Small-line{
+    height: 0;
+    width: 50px;
+    border: 1px solid gray;
+}
+
+.MainAboutSection3Small > :nth-child(2){
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.MainAboutSection3Small > :nth-child(3){
+    font-size: 25px;
+    font-weight: 600;
+}

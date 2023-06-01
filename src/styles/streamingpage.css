@@ -1,0 +1,10 @@
+.streaming-page-main-sub-container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 15px;
+    max-width: 1500px;
+    margin: 15px auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
